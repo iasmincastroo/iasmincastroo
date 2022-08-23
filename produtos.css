@@ -1,57 +1,60 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Produtos</title>
-<link rel="stylesheet" href="reset.css">
-<link rel="stylesheet" href="produtos.css">
+header{
+background-color: greenyellow;
+padding: 20px 0;
 
-</head>
-<body>
-<header>
-<div class="caixa">
-<h1><img src="logo.png"></h1>
+}
 
-<nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="produtos.html">Produtos</a></li>
-<li><a href="contato.html">Contato</a></li>
-</ul>
-</nav>
-</div>
-</header>
+.caixa { background-color: greenyellow;
 
-<main>
-<ul class="produtos">
+position: relative;
+width: 940px;
+margin: 0 auto;
 
-<li><h2>Cabelo</h2>
-<img src="cabelo.jpg">
-<p class="descricaoproduto">Na tesoura ou máquina, como o cliente preferir</p>
-<p class="precoproduto">R$ 25,00</p>
-</li>
+}
 
-<li><h2>Barba</h2>
-<img src="barba.jpg">
-<p class="descricaoproduto">Corte e desenho profissional de barba</p>
-<p class="precoproduto">R$ 18,00</p>
-</li>
+nav {
+position: absolute;
+top: 110px;
+right: 0px;
 
-<li><h2>Cabelo+barba</h2>
-<img src="cabelo+barba.jpg">
-<p class="descricaoproduto">Pacote completo de cabelo e barba</p>
-<p class="precoproduto">R$ 35,00</p>
-</li>
 
-</ul>
-</main>
-</body>
-</html>
+}
 
-</head>
-<body>
+nav11 {
+display: inline;
+margin: 0 0 0 15px;
 
-</body>
-</html>
+
+}
+
+
+
+nav a {
+text-transform: uppercase;
+color: black;
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;
+
+}
+
+
+.produtos {
+width: 940px;
+margin: 0auto;
+padding: 50px 0;
+
+}
+.produtos li {
+display: inline-block;
+text-align: center;
+width: 30px;
+vertical-align: top;
+margin: 0 1.5%;
+padding: 30px 20px;
+box-sizing: border-box;
+border: 2px #0000000 solid;
+
+
+
+}
